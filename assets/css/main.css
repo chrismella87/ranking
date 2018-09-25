@@ -1,0 +1,111 @@
+html{
+    font-family: 'Creepster', cursive;
+}
+
+.container{
+    background: url(http://www.wallpapermaiden.com/image/2018/04/03/horror-skulls-scary-creepy-fantasy-20708.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 240vh;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    background-color: grey;
+    max-width: 1000px;
+    max-height: 1400px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
+    overflow: auto
+}
+
+.table{
+    margin-top: 50px;
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.table td{
+    padding: 10px;
+    text-align: center;
+    width: 20px;
+}
+
+.table th{
+    color: white;
+    background-color: #212121;
+    padding: 15px;
+    box-shadow: 5px 0px 25px 3px rgba(0,0,0,0.75);
+}
+
+.table tr:nth-child(even){
+    background-color: #3a0032c5;
+    box-shadow: 5px 0px 25px 3px rgba(0,0,0,0.75);
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 4px 3px 4px rgba(150, 150, 150, 1);
+}
+
+.table td a{
+    font-weight: 1000;
+    color: black;
+}
+
+.table td a:hover {
+    text-decoration:underline; color: #a50b0b;
+}
+
+.title2{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 4px 3px 4px rgba(150, 150, 150, 1);
+}
+
+.inline{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 4px solid;
+    border-radius: 10px;
+}
+
+.text{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.video{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.position{
+    background-color: #3a0032c5;
+    padding: 10px;   
+    border-radius: 4px
+}
+
+.flecha a{
+    font-size: 60px;
+    color: #3a0032c5;
+    border-radius: 60px;
+}
+
+i:hover{
+    color: darkred
+}
